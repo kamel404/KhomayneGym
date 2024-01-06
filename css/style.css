@@ -63,6 +63,22 @@ body {
           transform: translateX(-50%);
 }
 
+
+
+/* Header styles */
+
+
+.custom_nav-container {
+  padding: 15px 0;
+  border-bottom: 3px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0; 
+
+}
+
+
 /*header section*/
 .hero_area {
   height: 100vh;
@@ -200,6 +216,8 @@ a:focus {
   color: #ffffff;
   position: relative;
   z-index: 3;
+  margin-left: 20px; /* Adjust the value as needed */
+    padding-left: 10px; 
 }
 
 .custom_nav-container {
